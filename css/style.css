@@ -1,0 +1,118 @@
+a:focus, a:active, #outer a:focus, #outer a:active {
+	background-color: #FAFA99;
+}
+
+
+.linkError {
+    position: relative;
+    padding: 0;
+    font-size: 1em;
+}
+.linkError:focus span, .linkError span:active, .ieJumpLink {
+    position: static;
+    left: 0;
+    top: 0;
+}
+
+body {
+    padding: 15px;
+}
+
+fieldset, legend {
+    border: 1px solid #000;
+    padding: 2px;
+}
+
+fieldset {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+fieldset p {
+	position: relative;
+	float: left;
+	clear: both;
+}
+
+.invalidInfo {
+    color: #F00;
+    background: #EFEFEF;
+    padding: 5px;
+    border: 1px solid #F00;
+    margin-bottom: 15px;
+}
+
+.invalidInfo strong {
+    display: block;
+}
+
+.invalidInfo p {
+    padding-bottom: 0;
+}
+
+.invalidInfo li {
+    display: inline;
+}
+
+.invalidInfo a {
+    color: #F00;
+	text-decoration: none;
+}
+
+.invalid {
+    border: 2px solid #F00;
+}
+
+.v1 label, .v2 label span {
+    width: 8em;
+    float: left;
+}
+
+.v1 .error dfn, .v2 .hasError strong {
+    font-style: normal;
+    font-weight: bold;
+    color: #F00;
+    display: block;
+}
+
+.v2 .hasError strong {
+    padding-bottom: 10px;
+}
+
+.raCheckboxes input {
+    display: inline;
+    float: none;
+}
+
+.raCheckboxes label span {
+    display: inline;
+    width: auto;
+    float: none;
+}
+
+.errorLinks {
+	float: left;
+	margin-left: 1em;
+	overflow: hidden;
+}
+
+label {
+	float: left;
+}
+
+.errorLinks a {
+	margin-left: -1000px;
+	display: block;
+	font-size: 0.625em;
+	font-weight: bold;
+	padding: 0.25em;
+	background: 
+}
+
+.errorLinks a:focus, .errorLinks a:active {
+	margin-left: 0;
+}

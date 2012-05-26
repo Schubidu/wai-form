@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<langcontents>
+	<lang type="de">
+		<item name="title">Formular mit Fehlermeldungen</item>
+		<item name="errorTitle">Es ist ein Fehler aufgetreten!</item>
+		<item name="errorMessage">Bitte überprüfen Sie Ihre Eingaben in folgenden Feldern:</item>
+		<item name="legend">Ihre Angaben</item>
+		<item name="nextError">zum nächsten Fehler</item>
+		<item name="backToErrorList">zurück zur Fehlerliste</item>
+		<item name="nname">Name</item>
+		<item name="vname">Vorname</item>
+		<item name="ort">Ort</item>
+		<item name="datenschutz">Ja, ich stimme den Datenschutzbestimmungen zu.</item>
+		<item name="e_nname">Name</item>
+		<item name="e_vname">Vorname</item>
+		<item name="e_ort">Ort</item>
+		<item name="e_datenschutz">Zustimmung Datenschutz</item>
+		<item name="em_nname">Bitte geben Sie einen Nachnamen an.</item>
+		<item name="em_vname">Bitte geben Sie einen Vornamen an.</item>
+		<item name="em_ort">Bitte geben Sie einen Ort an.</item>
+		<item name="em_datenschutz">Um fortzufahren, müssen Sie den Datenschutzbestimmungen zustimmen.</item>
+		<item name="buttonSend">Absenden</item>
+	</lang>
+	<lang type="en">
+		<item name="title">Form with errormessages</item>
+		<item name="errorTitle">The form has errors!</item>
+		<item name="errorMessage">Please check your entry in following fields:</item>
+		<item name="legend">Your specifications</item>
+		<item name="nextError">next Error</item>
+		<item name="backToErrorList">back to errorlist</item>
+		<item name="nname">Name</item>
+		<item name="vname">Forename</item>
+		<item name="ort">City</item>
+		<item name="datenschutz">Yes i accept the privacy term.</item>
+		<item name="e_nname">Name</item>
+		<item name="e_vname">Forename</item>
+		<item name="e_ort">City</item>
+		<item name="e_datenschutz">Accepting Privacy Terms</item>
+		<item name="em_nname">Please state your Name.</item>
+		<item name="em_vname">Please state your Forename.</item>
+		<item name="em_ort">Please state your City.</item>
+		<item name="em_datenschutz">You have to accept the privacy terms.</item>
+		<item name="buttonSend">Send</item>
+	</lang>
+</langcontents>

@@ -1,0 +1,67 @@
+/* general configuration of websites. reset elements */
+html, body	{
+	margin: 0;
+	padding: 0;
+	font-size: 100.01%;
+	font-family: Arial, Verdana, Tahoma, sans-serif;
+	color: #000;
+}
+
+html, body {
+	min-height: 100.01%;
+}
+
+a {
+	color: #000;
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, p, form, ul, ol, li, dl, dt, dd, input, select, textarea, tr, td, fieldset {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, form, ul, ol, li, dl, dt, dd, textarea, tr, td, fieldset {
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, legend {
+	font-size: 1em;
+}
+
+img, fieldset {
+	border: none;
+}
+
+ul, li {
+	list-style: none;
+}
+input, select, textarea {
+	font-size: 1.1em;
+	color: #000;
+	font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+
+label, button, .inputBut input {
+    cursor: pointer;
+}
+
+abbr, acronym {
+	border-bottom: none;
+}
+
+/* to wrap "-" even in Mozilla */
+.mW:after {
+	content: " "; margin-right: -0.32em;
+}
+
+#backToMain {
+	background: #3FE;
+	margin: -15px -15px 15px;
+	padding: 15px;
+	font-size: 0.75em;
+	border-bottom: 1px solid #000;
+}
